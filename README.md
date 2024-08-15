@@ -1,14 +1,13 @@
-<h1>File Permissions in Linux</h1>
+<h1>Hashing Files in Linux</h1>
 
 <h2>Description</h2>
-
-Project consists of updating file permissions for certain files and directories within the projects directory. The permissions do not currently reflect the level of authorization that should be given. Checking and updating these permissions will help keep their system secure. 
+Lab consisted of creating hash values for two files and using Linux commands to manually examine the differences.
 <br />
 
 
 <h2>Languages Used</h2>
 
-- <b>Bash</b>
+- <b>Bash Shell</b>
 
 <h2>Environments Used </h2>
 
@@ -17,20 +16,20 @@ Project consists of updating file permissions for certain files and directories 
 <h2>Lab walk-through:</h2>
 
 <p align="center">
-Check file and directory details: <br/>
-<img src="https://i.imgur.com/jHkV0KS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+List contents of directory and display contents of .txt files: <br/>
+<img src="https://i.imgur.com/Wat76DJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 <p align="center">
-Change file permissions: <br/>
-<img src="https://i.imgur.com/7VYagJN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Generate Hashes of the contents of the two files: <br/>
+<img src="https://i.imgur.com/g4qpNIK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 <p align="center">
-Change file permissions on a hidden file: <br/>
-<img src="https://i.imgur.com/ZMgOQvf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Compare hashes manually and with the cmp command: <br/>
+<img src="https://i.imgur.com/V7jrpHn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
@@ -42,7 +41,7 @@ Change directory permissions:  <br/>
 
 <h2>Summary</h2>
 
-- I changed multiple permissions to match the level of authorization my organization wanted for files and directories in the projects directory. The first step in this was using ls -la to check the permissions for the directory. This informed my decisions in the following steps. I then used the chmod command multiple times to change the permissions on files and directories.
+- In this lab, I practiced computing hashes using the sha256sum command, displayed hashes using the cat command and compared hashes using the cmp command.
 
 <!--
  ```diff
