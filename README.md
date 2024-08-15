@@ -23,19 +23,13 @@ List contents of directory and display contents of .txt files: <br/>
 
 <p align="center">
 Generate Hashes of the contents of the two files: <br/>
-<img src="https://i.imgur.com/g4qpNIK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nufwPNh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
 <p align="center">
 Compare hashes manually and with the cmp command: <br/>
 <img src="https://i.imgur.com/V7jrpHn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-
-<p align="center">
-Change directory permissions:  <br/>
-<img src="https://i.imgur.com/evuKeLR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
